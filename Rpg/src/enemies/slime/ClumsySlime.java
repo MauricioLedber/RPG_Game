@@ -63,8 +63,4 @@ public class ClumsySlime extends Enemy implements Serializable {
         return "¡El Slime ha escapado de la batalla!\n";
     }
 
-    @Override
-    public Image getImage() {
-        return ImageManager.getInstance().getImage("slime", new ImageIcon("img\\enemies\\slime\\Slime.png").getImage());
     }
-}
