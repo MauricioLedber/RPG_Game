@@ -115,10 +115,5 @@ public class AloneWolf extends Enemy implements Serializable {
 		return message + player.takeDamage(totalDamage);
 	}
 
-	@Override
-	public Image getImage() {
-
-		return ImageManager.getInstance().getImage("aloneWolf",
-				new ImageIcon("img\\enemies\\wolfs\\aloneWolf.png").getImage());
-	}
+	
 }
