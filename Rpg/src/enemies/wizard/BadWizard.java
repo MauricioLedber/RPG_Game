@@ -66,8 +66,5 @@ public class BadWizard extends Enemy implements Serializable {
         return "¡El mago ha escapado de la batalla !\n";
     }
 
-    @Override
-    public Image getImage() {
-        return ImageManager.getInstance().getImage("wizard", new ImageIcon("img\\enemies\\wizard\\wizard.png").getImage());
-    }
+   
 }
