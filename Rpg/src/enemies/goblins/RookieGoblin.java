@@ -122,10 +122,5 @@ public class RookieGoblin extends Enemy implements Serializable {
 		return message;
 	}
 
-	@Override
-	public Image getImage() {
-
-		return ImageManager.getInstance().getImage("rookieGoblin",
-				new ImageIcon("img\\enemies\\goblins\\rookieGoblin.png").getImage());
-	}
+	
 }
