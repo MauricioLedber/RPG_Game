@@ -89,9 +89,5 @@ public class BigSkeleton extends Enemy implements Serializable {
         return "¡El esqueleto huye de la batalla!\n";
     }
 
-    @Override
-    public Image getImage() {
-        return ImageManager.getInstance().getImage("skeleton",
-                new ImageIcon("img\\enemies\\skeleton\\skeleton.png").getImage());
-    }
+   
 }
