@@ -95,10 +95,5 @@ public class TinyBat extends Enemy implements Serializable {
 		return message;
 	}
 
-	@Override
-	public Image getImage() {
-
-		return ImageManager.getInstance().getImage("tinyBat",
-				new ImageIcon("img\\enemies\\bats\\tinyBat.png").getImage());
-	}
+	
 }
