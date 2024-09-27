@@ -96,9 +96,5 @@ public class RedDragon extends Enemy implements Serializable {
         return message;
     }
 
-    @Override
-    public Image getImage() {
-        return ImageManager.getInstance().getImage("reddragon",
-                new ImageIcon("img\\enemies\\dragons\\reddragon.png").getImage());
-    }
+    
 }
