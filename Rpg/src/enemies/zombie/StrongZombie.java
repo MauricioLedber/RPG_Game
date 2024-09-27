@@ -90,9 +90,5 @@ public class StrongZombie extends Enemy implements Serializable {
         return message;
     }
 
-    @Override
-    public Image getImage() {
-        return ImageManager.getInstance().getImage("zombies",
-                new ImageIcon("img\\enemies\\zombies\\zombie.png").getImage());
-    }
+
 }
